@@ -13,7 +13,7 @@ use Faker\Generator as Faker;
 |
 */
 
-$factory->define(tasks\User::class, function (Faker $faker) {
+$factory->define(webtrocas\User::class, function (Faker $faker) {
     static $password;
 
     return [

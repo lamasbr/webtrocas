@@ -1,6 +1,6 @@
 <?php
 
-namespace tasks\Providers;
+namespace webtrocas\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

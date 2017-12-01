@@ -67,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => tasks\User::class,
+            'model' => webtrocas\User::class,
         ],
 
         // 'users' => [

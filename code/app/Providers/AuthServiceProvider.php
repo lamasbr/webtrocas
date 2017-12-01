@@ -1,6 +1,6 @@
 <?php
 
-namespace tasks\Providers;
+namespace webtrocas\Providers;
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
@@ -13,7 +13,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        'tasks\Model' => 'tasks\Policies\ModelPolicy',
+        'webtrocas\Model' => 'webtrocas\Policies\ModelPolicy',
     ];
 
     /**

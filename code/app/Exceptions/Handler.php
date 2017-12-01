@@ -1,6 +1,6 @@
 <?php
 
-namespace tasks\Exceptions;
+namespace webtrocas\Exceptions;
 
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;

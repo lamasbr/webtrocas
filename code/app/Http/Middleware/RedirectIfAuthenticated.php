@@ -1,6 +1,6 @@
 <?php
 
-namespace tasks\Http\Middleware;
+namespace webtrocas\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;

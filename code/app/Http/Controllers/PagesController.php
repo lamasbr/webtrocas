@@ -1,6 +1,6 @@
 <?php
 
-namespace tasks\Http\Controllers;
+namespace webtrocas\Http\Controllers;
 
 use Illuminate\Http\Request;
 

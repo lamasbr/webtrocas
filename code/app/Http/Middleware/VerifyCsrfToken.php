@@ -1,6 +1,6 @@
 <?php
 
-namespace tasks\Http\Middleware;
+namespace webtrocas\Http\Middleware;
 
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken as Middleware;
 

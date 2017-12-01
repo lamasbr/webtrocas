@@ -1,6 +1,6 @@
 <?php
 
-namespace tasks\Providers;
+namespace webtrocas\Providers;
 
 use Illuminate\Support\Facades\Event;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
@@ -13,8 +13,8 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
-        'tasks\Events\Event' => [
-            'tasks\Listeners\EventListener',
+        'webtrocas\Events\Event' => [
+            'webtrocas\Listeners\EventListener',
         ],
     ];
 

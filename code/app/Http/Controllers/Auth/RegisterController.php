@@ -1,9 +1,9 @@
 <?php
 
-namespace tasks\Http\Controllers\Auth;
+namespace webtrocas\Http\Controllers\Auth;
 
-use tasks\User;
-use tasks\Http\Controllers\Controller;
+use webtrocas\User;
+use webtrocas\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 
@@ -58,7 +58,7 @@ class RegisterController extends Controller
      * Create a new user instance after a valid registration.
      *
      * @param  array  $data
-     * @return \tasks\User
+     * @return \webtrocas\User
      */
     protected function create(array $data)
     {

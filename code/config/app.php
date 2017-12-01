@@ -172,11 +172,11 @@ return [
         /*
          * Application Service Providers...
          */
-        tasks\Providers\AppServiceProvider::class,
-        tasks\Providers\AuthServiceProvider::class,
-        // tasks\Providers\BroadcastServiceProvider::class,
-        tasks\Providers\EventServiceProvider::class,
-        tasks\Providers\RouteServiceProvider::class,
+        webtrocas\Providers\AppServiceProvider::class,
+        webtrocas\Providers\AuthServiceProvider::class,
+        // webtrocas\Providers\BroadcastServiceProvider::class,
+        webtrocas\Providers\EventServiceProvider::class,
+        webtrocas\Providers\RouteServiceProvider::class,
 
     ],
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace tasks\Http\Controllers\Auth;
+namespace webtrocas\Http\Controllers\Auth;
 
-use tasks\Http\Controllers\Controller;
+use webtrocas\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\SendsPasswordResetEmails;
 
 class ForgotPasswordController extends Controller

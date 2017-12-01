@@ -30,7 +30,7 @@ return [
     ],
 
     'stripe' => [
-        'model' => tasks\User::class,
+        'model' => webtrocas\User::class,
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],

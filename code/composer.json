@@ -23,7 +23,7 @@
             "database/factories"
         ],
         "psr-4": {
-            "tasks\\": "app/"
+            "webtrocas\\": "app/"
         }
     },
     "autoload-dev": {
